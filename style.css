@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#firstcontent {
+    background-color: hsl(31, 77%, 52%);
+
+
+}
+
+#secondcontent {
+    background-color: hsl(184, 100%, 22%);
+
+
+}
+
+#thirdcontent {
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+}
+
+
+.first:hover {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 40px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+
+
+
+}
+
+.first {
+    color: hsl(31, 77%, 52%);
+}
+
+.second {
+    color: hsl(184, 100%, 22%);
+
+}
+
+.second:hover {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 40px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+
+
+
+}
+
+.third {
+    color: hsl(179, 100%, 13%);
+
+}
+
+.third:hover {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 40px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+
+
+ul {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.container {
+    overflow: none;
+    padding: 60px;
+    width: fit-content;
+    display: flex;
+
+}
+
+img {
+    padding-bottom: 15px;
+
+}
+
+
+
+.child {
+    padding: 30px 30px;
+}
+
+button {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+
+    border: none;
+
+}
